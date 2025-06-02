@@ -1,14 +1,14 @@
 {
-  "name": "projetoback",
+  "name": "projeto",
   "version": "1.0.0",
-  "description": "servidor de exemplo pra back",
-  "main": "index.js",
+  "description": "servidor de exemplo para turma 148",
+  "main": "index.ts",
   "scripts": {
     "dev": "ts-node-dev ./src/index.ts",
     "start": "node ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Matheus",
+  "author": "Andre",
   "license": "ISC",
   "dependencies": {
     "@prisma/client": "^6.8.2",

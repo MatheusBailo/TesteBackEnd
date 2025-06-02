@@ -11,17 +11,17 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-modal User{
-  id int @id @default(autoIncrement())
-  name string @unique
-  email string
-  password string
+model User {
+  id Int @id @default(autoincrement())
+  name String @unique
+  email String
+  password String
 }
 
-modal List{
-  id int @id @default(autoIncrement())
-  description string
-  price float
-  quantity int
-  image string
+model List {
+  id Int @id @default(autoincrement())
+  description String
+  price Float
+  quantity Int
+  image String
 }
